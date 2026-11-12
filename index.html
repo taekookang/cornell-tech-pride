@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cornell Tech Pride</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff8ec;--ink:#1b1530;--card:#ffffff;--muted:#4a4363;--a:#ff5d73;--b:#ffb627;--c:#2ec4a6;--d:#5b6cff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17122b;--ink:#fff8ec;--card:#241d42;--muted:#c9c2e6}}
+:root[data-theme="dark"]{--bg:#17122b;--ink:#fff8ec;--card:#241d42;--muted:#c9c2e6}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Bricolage Grotesque',system-ui,sans-serif;line-height:1.5}
+.bar{height:22px;border-bottom:3px solid var(--ink);background:linear-gradient(90deg,#000 0 9.09%,#784f17 0 18.18%,#74d7ee 0 27.27%,#ffafc8 0 36.36%,#fff 0 45.45%,#e40303 0 54.54%,#ff8c00 0 63.63%,#ffed00 0 72.72%,#008026 0 81.81%,#004dff 0 90.9%,#750787 0)}.soon{margin-top:14px;font-weight:800;font-size:20px}
+main{max-width:720px;margin:0 auto;padding:40px 20px 64px}
+.tag{font-family:'DM Mono',monospace;font-size:14px;color:var(--muted)}
+h1{font-size:clamp(40px,10vw,72px);line-height:1;margin:12px 0 16px;font-weight:800}
+h1 span{background:linear-gradient(90deg,var(--a),var(--b),var(--c),var(--d));-webkit-background-clip:text;background-clip:text;color:transparent}
+p.lead{font-size:20px;color:var(--muted);max-width:34em}
+.cards{display:grid;gap:18px;margin-top:32px}
+a.card{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:3px solid var(--ink);border-radius:18px;padding:22px 24px;box-shadow:6px 6px 0 var(--ink);transition:transform .15s,box-shadow .15s;min-height:44px}
+a.card:hover,a.card:focus-visible{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--ink);outline:none}
+a.card h2{margin:0 0 4px;font-size:26px}
+a.card p{margin:0;color:var(--muted)}
+a.card .go{display:inline-block;margin-top:12px;font-family:'DM Mono',monospace;font-weight:500;padding:6px 12px;border-radius:999px;color:#1b1530}
+.wa .go{background:var(--c)}.sv .go{background:var(--b)}
+footer{margin-top:40px;font-family:'DM Mono',monospace;font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="bar"></div>
+<main>
+<div class="tag">// cornell_tech.pride</div>
+<h1>Come as you are. <span>Compile as you are.</span></h1>
+<p class="lead">Cornell Tech Pride is a club for LGBTQ+ students and allies on Roosevelt Island. Hang out, meet people, and help shape what we do this year.</p>
+<div class="cards">
+<a class="card wa" id="whatsapp" href="https://chat.whatsapp.com/J6cScr8gfbI9zOvs3RiwYp?mode=gi_t" target="_blank" rel="noopener">
+<h2>Join the WhatsApp group</h2>
+<p>Event pings, meetups, memes, and people who get it.</p>
+<span class="go">open WhatsApp &rarr;</span>
+</a>
+<a class="card sv" id="survey" href="https://forms.gle/qqz6WWbuBBCSWexX8" target="_blank" rel="noopener">
+<h2>Take the 2-minute survey</h2>
+<p>Tell us what events and vibes you want. Your answers steer the club.</p>
+<span class="go">start the survey &rarr;</span>
+</a>
+</div>
+<footer>All identities, majors, and experience levels welcome. Allies too.<div class="soon">Stay tuned for more events!</div></footer>
+</main>
+</body>
+</html>
